@@ -9,6 +9,7 @@
     "react-scripts": "5.0.1",
     "sass": "^1.54.9"
   },
+  
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
