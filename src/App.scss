@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Creepster&family=Open+Sans:wght@300&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  // font-size: 1rem;
+  
+}
+.App{
+  text-align: center;
+}
+
+.App h1{
+  font-family: 'Creepster', cursive;
+  letter-spacing: 0.3rem;
+  color: rgba(219, 3, 3, 0.582);
+  font-size: 3rem;
+}
+
+@media (max-width:400px){
+  .App h1{
+    font-size: 2rem;
+  }
+}
+
+
+
+
